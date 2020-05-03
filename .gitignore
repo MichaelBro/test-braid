@@ -2,3 +2,4 @@ vendor
 /local/modules/sprint.migration/
 composer.lock
 .idea
+bitrix

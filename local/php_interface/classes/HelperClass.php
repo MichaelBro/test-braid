@@ -1,8 +1,8 @@
 <?php
 
-namespace Classes\Helpers;
+namespace MichaelBro;
 
-class Other
+class HelperClass
 {
     /**
      * Возвращает форму слова в зависимости от числа

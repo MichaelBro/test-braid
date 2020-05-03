@@ -1,11 +1,24 @@
 {
   "extra": {
+    "merge-plugin": {
+      "require": [
+        "bitrix/composer-bx.json"
+      ]
+    },
     "installer-paths": {
-      "local/modules/{$name}/": ["type:bitrix-module"]
+      "local/modules/{$name}/": [
+        "type:bitrix-module"
+      ]
     }
   },
   "require": {
+    "wikimedia/composer-merge-plugin": "dev-master",
     "andreyryabin/sprint.migration": "dev-master",
     "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MichaelBro\\": "local/php_interface/classes"
+    }
   }
 }
